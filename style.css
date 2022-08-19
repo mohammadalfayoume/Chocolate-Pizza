@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+}
+
+.rss {
+    margin-left: 7px;
+}
+
+.logo_and_name {
+    display: flex;
+    align-items: center;
+}
+
