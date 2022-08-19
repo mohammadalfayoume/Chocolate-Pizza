@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto:wght@300&display=swap');    
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto:wght@300;500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 * {
     box-sizing: border-box;
     margin: 0;
@@ -19,6 +18,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 li {
@@ -80,7 +80,7 @@ ul {
 
 .h1 {
     text-transform: capitalize;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .p1 {
@@ -123,7 +123,7 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
+    margin: 20px 0 50px;
 }
 
 .last {
@@ -150,5 +150,28 @@ ul {
     padding: 10px 25px;
     background-color: #f55e26;
     color: white;
+    text-transform: uppercase;
 }
+
+.footer_line {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.l {
+    color: #80808040 ;
+}
+
+.s {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    gap: 7px;
+    color:#80808094;
+}
+
+
 
